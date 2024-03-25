@@ -1,0 +1,260 @@
+(base) raju@Snehals-MacBook-Air ~ % npm install -g @angular/cli
+zsh: command not found: npm
+(base) raju@Snehals-MacBook-Air ~ % npm install -g @angular/cli
+zsh: command not found: npm
+(base) raju@Snehals-MacBook-Air ~ % pip install angular
+ERROR: Could not find a version that satisfies the requirement angular (from versions: none)
+ERROR: No matching distribution found for angular
+
+[notice] A new release of pip is available: 23.3.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+(base) raju@Snehals-MacBook-Air ~ % ng -version
+zsh: command not found: ng
+(base) raju@Snehals-MacBook-Air ~ % angular -version
+zsh: command not found: angular
+(base) raju@Snehals-MacBook-Air ~ % brew install node
+Error: /opt/homebrew is not writable. You should change the
+ownership and permissions of /opt/homebrew back to your
+user account:
+  sudo chown -R raju /opt/homebrew
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+######################################################################### 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+######################################################################### 100.0%
+Error: The following directories are not writable by your user:
+/opt/homebrew
+/opt/homebrew/share/locale
+/opt/homebrew/share/man/man7
+/opt/homebrew/share/zsh
+/opt/homebrew/share/zsh/site-functions
+/opt/homebrew/var/homebrew/locks
+/opt/homebrew/var/log
+
+You should change the ownership of these directories to your user.
+  sudo chown -R raju /opt/homebrew /opt/homebrew/share/locale /opt/homebrew/share/man/man7 /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew/locks /opt/homebrew/var/log
+
+And make sure that your user has write permission.
+  chmod u+w /opt/homebrew /opt/homebrew/share/locale /opt/homebrew/share/man/man7 /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew/locks /opt/homebrew/var/log
+(base) raju@Snehals-MacBook-Air ~ % curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 16555  100 16555    0     0  99077      0 --:--:-- --:--:-- --:--:-- 99728
+=> Downloading nvm from git to '/Users/raju/.nvm'
+=> Cloning into '/Users/raju/.nvm'...
+remote: Enumerating objects: 365, done.
+remote: Counting objects: 100% (365/365), done.
+remote: Compressing objects: 100% (313/313), done.
+remote: Total 365 (delta 43), reused 167 (delta 26), pack-reused 0
+Receiving objects: 100% (365/365), 365.08 KiB | 1.83 MiB/s, done.
+Resolving deltas: 100% (43/43), done.
+* (HEAD detached at FETCH_HEAD)
+  master
+=> Compressing and cleaning up git repository
+
+=> Appending nvm source string to /Users/raju/.zshrc
+=> Appending bash_completion source string to /Users/raju/.zshrc
+=> Close and reopen your terminal to start using nvm or run the following to use it now:
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+(base) raju@Snehals-MacBook-Air ~ % nvm install 20
+zsh: command not found: nvm
+(base) raju@Snehals-MacBook-Air ~ % nvm install 20
+zsh: command not found: nvm
+(base) raju@Snehals-MacBook-Air ~ % node -v
+zsh: command not found: node
+(base) raju@Snehals-MacBook-Air ~ % node -version
+zsh: command not found: node
+(base) raju@Snehals-MacBook-Air ~ % 
+  [Restored 23 Mar 2024 at 7:16:53 PM]
+Last login: Sat Mar 23 19:07:45 on ttys000
+(base) raju@Snehals-MacBook-Air ~ % nvm install 20
+Downloading and installing node v20.11.1...
+Downloading https://nodejs.org/dist/v20.11.1/node-v20.11.1-darwin-arm64.tar.xz...
+######################################################################### 100.0%
+Computing checksum with shasum -a 256
+Checksums matched!
+Now using node v20.11.1 (npm v10.2.4)
+Creating default alias: default -> 20 (-> v20.11.1)
+(base) raju@Snehals-MacBook-Air ~ % node -v
+v20.11.1
+(base) raju@Snehals-MacBook-Air ~ % npm -v
+10.2.4
+(base) raju@Snehals-MacBook-Air ~ % npm install -g @angular/cli
+
+added 232 packages in 8s
+
+44 packages are looking for funding
+  run `npm fund` for details
+npm notice 
+npm notice New minor version of npm available! 10.2.4 -> 10.5.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.5.0
+npm notice Run npm install -g npm@10.5.0 to update!
+npm notice 
+(base) raju@Snehals-MacBook-Air ~ % ng -v
+Error: You need to specify a command before moving on. Use '--help' to view the available commands.
+(base) raju@Snehals-MacBook-Air ~ % npm install -g npm@10.5.0
+
+removed 26 packages, and changed 55 packages in 963ms
+
+24 packages are looking for funding
+  run `npm fund` for details
+(base) raju@Snehals-MacBook-Air ~ % npm install -g @angular/cli
+
+changed 232 packages in 13s
+
+44 packages are looking for funding
+  run `npm fund` for details
+(base) raju@Snehals-MacBook-Air ~ % npm - v
+Unknown command: "-"
+
+To see a list of supported npm commands, run:
+  npm help
+(base) raju@Snehals-MacBook-Air ~ % npm -v
+10.5.0
+(base) raju@Snehals-MacBook-Air ~ % ng -v
+Error: You need to specify a command before moving on. Use '--help' to view the available commands.
+(base) raju@Snehals-MacBook-Air ~ % angular -v
+zsh: command not found: angular
+(base) raju@Snehals-MacBook-Air ~ % ng --help
+ng <command>
+
+Commands:
+  ng add <collection>            Adds support for an external library to your project.
+  ng analytics                   Configures the gathering of Angular CLI usage metrics.
+  ng build [project]             Compiles an Angular application or library into an output directory named
+                                 dist/ at the given output path.                              [aliases: b]
+  ng cache                       Configure persistent disk cache and retrieve cache statistics.
+  ng completion                  Set up Angular CLI autocompletion for your terminal.
+  ng config [json-path] [value]  Retrieves or sets Angular configuration values in the angular.json file
+                                 for the workspace.
+  ng deploy [project]            Invokes the deploy builder for a specified project or for the default
+                                 project in the workspace.
+  ng doc <keyword>               Opens the official Angular documentation (angular.io) in a browser, and
+                                 searches for a given keyword.                                [aliases: d]
+  ng e2e [project]               Builds and serves an Angular application, then runs end-to-end tests.
+                                                                                              [aliases: e]
+  ng extract-i18n [project]      Extracts i18n messages from source code.
+  ng generate                    Generates and/or modifies files based on a schematic.        [aliases: g]
+  ng lint [project]              Runs linting tools on Angular application code in a given project folder.
+  ng new [name]                  Creates a new Angular workspace.                             [aliases: n]
+  ng run <target>                Runs an Architect target with an optional custom builder configuration
+                                 defined in your project.
+  ng serve [project]             Builds and serves your application, rebuilding on file changes.
+                                                                                              [aliases: s]
+  ng test [project]              Runs unit tests in a project.                                [aliases: t]
+  ng update [packages..]         Updates your workspace and its dependencies. See
+                                 https://update.angular.io/.
+  ng version                     Outputs Angular CLI version.                                 [aliases: v]
+
+Options:
+  --help  Shows a help message for this command in the console.                                  [boolean]
+
+For more information, see https://angular.io/cli/.
+(base) raju@Snehals-MacBook-Air ~ %  ng version 
+? Would you like to enable autocompletion? This will set up your terminal so pressing TAB while typing 
+Angular CLI commands will show possible options and autocomplete arguments. (Enabling autocompletion will 
+modify configuration files in your home directory.) Yes
+Appended `source <(ng completion script)` to `/Users/raju/.zshrc`. Restart your terminal or run the following to autocomplete `ng` commands:
+
+    source <(ng completion script)
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics disable --global
+
+Global setting: enabled
+Local setting: No local workspace configuration file.
+Effective status: enabled
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
+
+Angular CLI: 17.3.1
+Node: 20.11.1
+Package Manager: npm 10.5.0
+OS: darwin arm64
+
+Angular: 
+... 
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1703.1 (cli-only)
+@angular-devkit/core         17.3.1 (cli-only)
+@angular-devkit/schematics   17.3.1 (cli-only)
+@schematics/angular          17.3.1 (cli-only)
+    
+(base) raju@Snehals-MacBook-Air ~ % ng -version
+Error: You need to specify a command before moving on. Use '--help' to view the available commands.
+(base) raju@Snehals-MacBook-Air ~ % cd Desktop  
+(base) raju@Snehals-MacBook-Air Desktop % ng new first
+? Which stylesheet format would you like to use? CSS             [ 
+https://developer.mozilla.org/docs/Web/CSS                     ]
+? Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
+CREATE first/README.md (1059 bytes)
+CREATE first/.editorconfig (274 bytes)
+CREATE first/.gitignore (548 bytes)
+CREATE first/angular.json (2587 bytes)
+CREATE first/package.json (1036 bytes)
+CREATE first/tsconfig.json (857 bytes)
+CREATE first/tsconfig.app.json (263 bytes)
+CREATE first/tsconfig.spec.json (273 bytes)
+CREATE first/.vscode/extensions.json (130 bytes)
+CREATE first/.vscode/launch.json (470 bytes)
+CREATE first/.vscode/tasks.json (938 bytes)
+CREATE first/src/main.ts (250 bytes)
+CREATE first/src/favicon.ico (15086 bytes)
+CREATE first/src/index.html (291 bytes)
+CREATE first/src/styles.css (80 bytes)
+CREATE first/src/app/app.component.css (0 bytes)
+CREATE first/src/app/app.component.html (19903 bytes)
+CREATE first/src/app/app.component.spec.ts (913 bytes)
+CREATE first/src/app/app.component.ts (301 bytes)
+CREATE first/src/app/app.config.ts (227 bytes)
+CREATE first/src/app/app.routes.ts (77 bytes)
+CREATE first/src/assets/.gitkeep (0 bytes)
+✔ Packages installed successfully.
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+    Successfully initialized git.
+(base) raju@Snehals-MacBook-Air Desktop % cd first
+(base) raju@Snehals-MacBook-Air first % ng serve
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.io/analytics. No
+Global setting: enabled
+Local setting: disabled
+Effective status: disabled
+Initial chunk files | Names         |  Raw size
+polyfills.js        | polyfills     |  83.60 kB | 
+main.js             | main          |  21.92 kB | 
+styles.css          | styles        |  95 bytes | 
+
+                    | Initial total | 105.61 kB
+
+Application bundle generation complete. [1.055 seconds]
+
+Watch mode enabled. Watching for file changes...
+  ➜  Local:   http://localhost:4200/
+  ➜  press h + enter to show help
+
