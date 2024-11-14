@@ -1,0 +1,43 @@
+<app-header/>
+
+<main>
+  <ul id="users">
+    <li>
+      <app-user 
+      [user]="users[0]"
+      
+      (select) = "onSelectUser($event)"
+      />
+      
+    </li>
+    <li>
+      <app-user 
+      [user]="users[1]"
+      (select) = "onSelectUser($event)"
+      />
+      
+    </li>
+    <li>
+      <app-user 
+      [user]="users[2]"
+      (select) = "onSelectUser($event)"
+      />
+    </li>
+    <li>
+      <app-user 
+      [user]="users[3]"
+      (select) = "onSelectUser($event)"
+      />
+    </li>
+  </ul>
+  <app-tasks [name]="selectedUser.name"/>
+  <!-- TASK OF THAT USER -->
+
+</main>
+
+
+<!-- <header>
+  <img src="assets/angular-logo.png" alt="The Angular logo: The letter 'A'" />
+  <h1>Let's get started!</h1>
+  <p>Time to learn all about Angular!</p>
+</header> -->
